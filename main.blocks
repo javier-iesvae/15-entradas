@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="5k{W,J,C)7[8giubg@]K">n</variable></variables><block type="device_button_event" id="zoQx!`UB/nEpOET0[QZD" x="-15" y="-356"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Q`MmQ[*$DU#xx:v(0c0k"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="iZyD47cD:R^X_`(R.Ij`" x="295" y="-361"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="tTzKtV|sMKTeF:C~h2V_"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field></block></statement></block><block type="device_button_event" id="$66ge(Rh3fff*qbzle7e" x="611" y="-362"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="WLvyNYv|(#`dBEKMf_i}"><field name="LEDS">`
+        # . # . # 
+        # . # . # 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block><block type="input_logo_event" id="k~`2g2_TkUDgw!ipD`T=" x="0" y="0"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="m6Tb*rNDxF|OGz#3Q@R)"><field name="LEDS">`
+        . # . # . 
+        . . # . . 
+        . . # # . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block><block type="device_gesture_event" id="6g*m3bZetiq4wm@/,bTm" x="328" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="qk:!}RBpjK[*pA|^pqTc"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # # # # 
+        . # # # . 
+        . # # # .
+        `</field></block></statement></block><block type="input_on_sound" id="yYg@[V7O$9KFm|Q1k@]a" x="584" y="-7"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="device_show_leds" id="X-Zo]s`t/}iRboJ0HQUX"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
